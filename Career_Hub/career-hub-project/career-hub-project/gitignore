@@ -1,0 +1,51 @@
+
+# ==============================
+# Java / Spring Boot / Maven
+# ==============================
+**/target/
+**/build/
+*.class
+*.log
+hs_err_pid*
+
+# ==============================
+# Node.js / React / Vite
+# ==============================
+**/node_modules/
+**/dist/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ==============================
+# IDE files
+# ==============================
+.idea/
+.vscode/
+*.iml
+.settings/
+.project
+.classpath
+.factorypath
+
+# ==============================
+# Operating system
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Environment and secrets
+# ==============================
+
+# Spring Boot configuration files containing secrets
+**/application.yml
+**/application.yaml
+**/application.properties
+
+.env
+.env.*
+!.env.example
+**/application-local.yml
+**/application-local.properties

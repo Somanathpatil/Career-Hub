@@ -1,0 +1,26 @@
+# Frontend
+**/node_modules/
+**/dist/
+
+# Java / Spring Boot
+**/target/
+**/build/
+*.class
+*.log
+
+# Exclude secrets
+**/application.yml
+**/application.yaml
+.env
+.env.*
+!.env.example
+
+# IDE files
+.idea/
+.vscode/
+.settings/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db

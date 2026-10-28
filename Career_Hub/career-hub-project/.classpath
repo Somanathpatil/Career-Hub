@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="career-hub-project/src/main/java"/>
+	<classpathentry kind="src" path="career-hub-project/src/test/java"/>
+	<classpathentry kind="src" path="eureka-server/src/main/java"/>
+	<classpathentry kind="src" path="eureka-server/src/test/java"/>
+	<classpathentry kind="output" path="career-hub-project/target/classes"/>
+</classpath>
